@@ -19,7 +19,7 @@ namespace Common.MultiValueDictionaryApp.Constants
         public const string SomeErrorOccured = "Some Error Occured while processing your request. Please contact customer support";
         public const string MultiValueDictionaryTypeNotSupported = "Selected MultiValueDictionary is not yet suuprted. Please choose other available options.";
         public const string ChooseMultiValueDictionaryType = "Please enter option number for MultiValueDictionary memory Type.";
-        public const string MultiValueDictionaryTypeOptions = "1.In Memory\n2.Persistant\n3.Database\n4.File";
+        public const string MultiValueDictionaryTypeOptions = "1.In Memory\n2.Database\n3.File";
         public const string EnterInput = "Please enter input";
     }
 }

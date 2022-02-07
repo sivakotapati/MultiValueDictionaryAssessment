@@ -1,5 +1,6 @@
 ﻿using Common.MultiValueDictionaryApp.Constants;
 using Common.MultiValueDictionaryApp.Exceptions;
+using Common.MultiValueDictionaryApp.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace Common.MultiValueDictionaryApp.Implementations
 {
     public static class MultiValueDictionaryFactory
     {
-        public static InMemoryMultiValueDictionary<TKey,TValue> GetInstance<TKey,TValue>(MultiValueDictionaryType option)
+        public static IMultiValueDictionary<TKey,TValue> GetInstance<TKey,TValue>(MultiValueDictionaryType option)
         {
-            InMemoryMultiValueDictionary<TKey, TValue> _dict;
+            IMultiValueDictionary<TKey, TValue> _dict;
             switch (option)
             {
                 
